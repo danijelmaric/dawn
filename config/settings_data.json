@@ -1,5 +1,8 @@
 {
   "current": {
+    "type_header_font": "amiri_n4",
+    "type_body_font": "archivo_n4",
+    "sale_badge_color_scheme": "background-2",
     "favicon": "shopify:\/\/shop_images\/SellDigital_Znak_RGB_v2.png",
     "sections": {
       "announcement-bar": {

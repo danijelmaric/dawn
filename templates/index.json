@@ -78,8 +78,9 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/pouring-hot-coffee.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "layout": "image_first"
       }
     }
