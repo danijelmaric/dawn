@@ -1,10 +1,20 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1640952236492f8037": {
+      "type": "page",
+      "settings": {
+        "page": "faq"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1640952236492f8037"
   ]
 }
