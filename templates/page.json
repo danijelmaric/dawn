@@ -6,15 +6,14 @@
       "settings": {
       }
     },
-    "1640952236492f8037": {
-      "type": "page",
+    "main_page": {
+      "type": "main-page",
       "settings": {
-        "page": "faq"
       }
     }
   },
   "order": [
     "main",
-    "1640952236492f8037"
+    "main_page"
   ]
 }
