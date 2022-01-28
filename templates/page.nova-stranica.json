@@ -10,10 +10,89 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1643396953d4050e97": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
+    },
+    "1643396956c0d78984": {
+      "type": "collection-list",
+      "blocks": {
+        "1643396956c7ccd8b7-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1643396956c7ccd8b7-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1643396956c7ccd8b7-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1643396956c7ccd8b7-0",
+        "1643396956c7ccd8b7-1",
+        "1643396956c7ccd8b7-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1643396960218d4681": {
+      "type": "image-with-text",
+      "blocks": {
+        "16433969602a67b047-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16433969602a67b047-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16433969602a67b047-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16433969602a67b047-0",
+        "16433969602a67b047-1",
+        "16433969602a67b047-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "main",
-    "main_page"
+    "main_page",
+    "1643396953d4050e97",
+    "1643396956c0d78984",
+    "1643396960218d4681"
   ]
 }
