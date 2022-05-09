@@ -2,18 +2,134 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
       }
     },
     "main_page": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "165209057795e51b69": {
+      "type": "collage",
+      "blocks": {
+        "16520905779625cfe5-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "16520905779625cfe5-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "16520905779625cfe5-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "16520905779625cfe5-0",
+        "16520905779625cfe5-1",
+        "16520905779625cfe5-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "16520906015687e439": {
+      "type": "image-banner",
+      "blocks": {
+        "1652090601e6bbbc57-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "1652090601e6bbbc57-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1652090601e6bbbc57-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1652090601e6bbbc57-0",
+        "1652090601e6bbbc57-1",
+        "1652090601e6bbbc57-2"
+      ],
+      "settings": {
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1652090605b21b27db": {
+      "type": "image-with-text",
+      "blocks": {
+        "16520906058c113f0b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16520906058c113f0b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16520906058c113f0b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16520906058c113f0b-0",
+        "16520906058c113f0b-1",
+        "16520906058c113f0b-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     }
   },
   "order": [
     "main",
-    "main_page"
+    "main_page",
+    "165209057795e51b69",
+    "16520906015687e439",
+    "1652090605b21b27db"
   ]
 }
