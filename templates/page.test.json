@@ -1,18 +1,19 @@
 {
   "sections": {
+    "main_page": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
       }
     },
-    "main_page": {
-      "type": "main-page",
-      "settings": {
-      }
-    },
     "0a7c240f-5d41-4cd3-b623-dc02712e85f3": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "template--15853021692054__0a7c240f-5d41-4cd3-b623-dc02712e85f3-16660002605efe6ba6-0": {
           "type": "heading",
@@ -44,11 +45,12 @@
     },
     "3f5d42be-d9e1-4e1a-bbd5-08d43c598238": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--15853021692054__3f5d42be-d9e1-4e1a-bbd5-08d43c598238-1666000261e10a95e4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner"
+            "heading": "Image banner{{ page.title }}"
           }
         },
         "template--15853021692054__3f5d42be-d9e1-4e1a-bbd5-08d43c598238-1666000261e10a95e4-1": {
@@ -83,8 +85,8 @@
     }
   },
   "order": [
-    "main",
     "main_page",
+    "main",
     "0a7c240f-5d41-4cd3-b623-dc02712e85f3",
     "3f5d42be-d9e1-4e1a-bbd5-08d43c598238"
   ]
