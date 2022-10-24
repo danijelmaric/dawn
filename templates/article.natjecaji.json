@@ -6,11 +6,14 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
+            "image_height": "adapt"
           }
         },
         "title": {
           "type": "title",
           "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
           }
         },
         "content": {
@@ -32,9 +35,50 @@
       ],
       "settings": {
       }
+    },
+    "4562487b-1a35-4275-9b89-5c2c3758f74d": {
+      "type": "collage",
+      "blocks": {
+        "template--15860161085590__4562487b-1a35-4275-9b89-5c2c3758f74d-166659731683b0d22c-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "template--15860161085590__4562487b-1a35-4275-9b89-5c2c3758f74d-166659731683b0d22c-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "template--15860161085590__4562487b-1a35-4275-9b89-5c2c3758f74d-166659731683b0d22c-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15860161085590__4562487b-1a35-4275-9b89-5c2c3758f74d-166659731683b0d22c-0",
+        "template--15860161085590__4562487b-1a35-4275-9b89-5c2c3758f74d-166659731683b0d22c-1",
+        "template--15860161085590__4562487b-1a35-4275-9b89-5c2c3758f74d-166659731683b0d22c-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4562487b-1a35-4275-9b89-5c2c3758f74d"
   ]
 }
