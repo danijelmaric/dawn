@@ -10,6 +10,34 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "heading": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "275f0c50-df2e-4740-aa4e-6791d5ce33c7": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "heading": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "87ae9404-66ce-4f13-a428-7ac84fcdad23": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "heading": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "d88f2aeb-2c04-4743-a0e4-6cbace9ff533": {
+            "type": "announcement",
+            "disabled": true,
             "settings": {
               "heading": "Welcome to our store",
               "color_scheme": "accent-1",
@@ -18,7 +46,10 @@
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "275f0c50-df2e-4740-aa4e-6791d5ce33c7",
+          "87ae9404-66ce-4f13-a428-7ac84fcdad23",
+          "d88f2aeb-2c04-4743-a0e4-6cbace9ff533"
         ],
         "settings": {
         }
@@ -43,16 +74,40 @@
               "heading": "Quick links",
               "menu": "footer"
             }
+          },
+          "eaf06df9-199a-454b-9ab8-590f80917f8e": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          },
+          "34d96794-3413-40f6-9b29-e7051e12e361": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "0578a89f-d0a1-4896-b3d1-7e42dbd97795": {
+            "type": "image",
+            "settings": {
+              "image_width": 100,
+              "alignment": "center"
+            }
           }
         },
         "block_order": [
-          "footer-0"
+          "footer-0",
+          "eaf06df9-199a-454b-9ab8-590f80917f8e",
+          "34d96794-3413-40f6-9b29-e7051e12e361",
+          "0578a89f-d0a1-4896-b3d1-7e42dbd97795"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
