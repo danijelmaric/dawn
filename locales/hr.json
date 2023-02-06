@@ -593,13 +593,87 @@
         "gift_card_title": "Darovne kartice",
         "resend_gift_cards": "Ponovno pošalji darovne kartice",
         "thank_you_title": "Vaša narudžba je potvrđena",
-        "thank_you_title_payment": "Vaša uplata je potvrđena"
+        "thank_you_title_payment": "Vaša uplata je potvrđena",
+        "order_updates_description_missing": "Ne primate ažuriranja o otpremi.",
+        "order_updates_subscribe_to_email_notifications": "Primajte ažuriranja o otpremi e-poštom",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Primajte ažuriranja o otpremi e-poštom ili porukom",
+        "order_updates_subscribe_to_phone_notifications": "Primajte obavijesti o otpremi SMS-om",
+        "order_updates_submit_subscription": "podnijeti",
+        "optimus_button_label": "Kupujte uz Optimus: Pratite paket",
+        "track_shipment": "Pratite pošiljku",
+        "shopify_pay": {
+          "order_completed_html": "Narudžba je dovršena s %{shopify_pay}",
+          "learn_more_label": "Saznajte više o Shop Pay"
+        },
+        "other_options": "Druge opcije",
+        "delivery_information_label": "Informacije o dostavi:",
+        "gift_card_sent_confirmation": "Poklon kartice poslane",
+        "qr_code": {
+          "send_link_to_phone": "Ili pošaljite link na svoj telefon",
+          "title": "Pratite na svom telefonu",
+          "subtitle": "Skenirajte kod kamerom svog telefona da biste ga pratili putem Shopa."
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Skenirajte svojim telefonom",
+            "description": "Shop će vam slati ažuriranja isporuke u stvarnom vremenu nakon što vaša narudžba bude poslana."
+          },
+          "sms": {
+            "title": "Ili pošaljite link na svoj telefon"
+          }
+        },
+        "view_business_customer_account": "Prikaži račun",
+        "breadcrumbs_submitted": "Poslano",
+        "breadcrumbs_in_review": "U pregledu",
+        "breadcrumbs_confirmed": "Potvrđeno",
+        "missing_shipping_address_banner": {
+          "title": "Narudžba nema adresu za dostavu",
+          "text_html": "%{contact_us} da dodate svoju adresu"
+        },
+        "first_payment_complete": "Prva uplata izvršena",
+        "in_store_purchase": "Kupnja u trgovini",
+        "branded_promise": {
+          "shop_promise": {
+            "confirmed": {
+              "guaranteed_on_time": "Dostava zajamčena do %{date} s",
+              "on_time": "Isporuka do %{date} s"
+            },
+            "in_transit": {
+              "guaranteed_on_time": "Dostava zajamčena do %{date} s",
+              "on_time": "Isporuka do %{date} s",
+              "guaranteed_delayed": "Vaša pošiljka nije stigla prema očekivanju do %{date}. Kada stigne, možete podnijeti zahtjev",
+              "delayed": "Vaša pošiljka koja se očekuje do %{date} kasni."
+            },
+            "out_for_delivery": {
+              "guaranteed_on_time": "Dostava zajamčena do %{date} s",
+              "on_time": "Isporuka do %{date} s",
+              "guaranteed_delayed": "Vaša pošiljka nije stigla prema očekivanju do %{date}. Kada stigne, možete podnijeti zahtjev",
+              "delayed": "Vaša pošiljka koja se očekuje do %{date} kasni."
+            },
+            "delivered": {
+              "guaranteed_on_time": "Isporučeno na vrijeme sa",
+              "on_time": "Isporučeno do %{date} s",
+              "guaranteed_delayed": "Vaša pošiljka je isporučena nakon %{date}. Zahtjev za kasnu isporuku možete podnijeti kod",
+              "delayed": "Isporučeno %{date}, izvorno se očekivalo do %{original_delivery_date}"
+            }
+          }
+        }
       },
       "order_payment_collection": {
         "checkout_review_and_pay": "Vaša narudžba %{order_name} je ažurirana. Pregledajte ove promjene, a zatim platite kako biste potvrdili svoju narudžbu.",
         "order_updated_on": "Vaša je narudžba ažurirana %{last_edited_at}.",
         "order_review_and_pay": "Vaša je narudžba ažurirana. Pregledajte i platite kako biste potvrdili svoju narudžbu.",
-        "pay_now": "Plati sada"
+        "pay_now": "Plati sada",
+        "custom_line_item_description": "Iznos za plaćanje za narudžbu %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Dodano",
+            "other": "%{count} dodano"
+          },
+          "removed": "Uklonjeno",
+          "subtracted": "%{count} uklonjeno"
+        },
+        "additional_payment_requested": "Potrebno je plaćanje od %{total_outstanding}"
       },
       "change_currency": {
         "credit_card_will_be_charged_html": "Vaša će kreditna kartica biti terećena %{amount}",
@@ -674,6 +748,84 @@
           "generic_error": "Došlo je do problema s obradom vašeg zahtjeva.",
           "success_message": "Vaš način plaćanja je uspješno izbrisan"
         }
+      },
+      "review": {
+        "title": "Pregled",
+        "review_title": "Pregledaj narudžbu",
+        "checkout_as_guest": "Odjavi se kao gost",
+        "blocks": {
+          "contact_method_title": "Kontakt",
+          "billing_address_title": "Naplata",
+          "shipping_address_title": "Poslati nekome",
+          "shipping_method_title": "metoda",
+          "payment_method_title": "Plaćanje",
+          "change_link_label": "Promijeniti",
+          "change_contact_method_link_label": "Promjena podataka za kontakt",
+          "change_billing_address_link_label": "Promjena adrese za naplatu",
+          "change_shipping_address_link_label": "Promjena adrese za dostavu",
+          "change_shipping_method_link_label": "Promjena načina dostave",
+          "change_payment_method_link_label": "Promjena načina plaćanja",
+          "pick_up_in_store_shipping_method_html": "Preuzimanje u trgovini · %{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Pošaljite mi e-poštu s novostima i ponudama",
+        "post_accept_marketing_checkbox_label": "Pretplaćeni ste na primanje e-mail vijesti i ponuda",
+        "pending_accept_marketing_checkbox_label": "Provjerite svoju e-poštu kako biste potvrdili svoju pretplatu na vijesti i ponude",
+        "accept_sms_checkbox_label": "Šaljite mi poruke s novostima i ponudama",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Politika privatnosti",
+            "terms_of_service": "Uvjeti pružanja usluge",
+            "description_html": "Prijavom putem SMS-a pristajete na primanje ponavljajućih automatiziranih marketinških poruka, uključujući podsjetnike za košaricu, na navedeni telefonski broj. Suglasnost nije uvjet kupnje. Odgovorite STOP da biste otkazali pretplatu. Za pomoć odgovorite POMOĆ. Učestalost poruka varira. Moguće su naknade za poruke i podatke. Pogledajte naše %{privacy_policy_link} i %{terms_of_service_link}.",
+            "description_transactional_html": "Možda ćete primati tekstualne poruke u vezi s potvrdom narudžbe i ažuriranjima o otpremi. Odgovorite STOP da biste otkazali pretplatu. Za pomoć odgovorite POMOĆ. Učestalost poruka varira. Moguće su naknade za poruke i podatke. Pogledajte naše %{privacy_policy_modal_link} i %{terms_of_service_modal_link}."
+          }
+        },
+        "unsubscribe": {
+          "title": "Otkazali ste pretplatu",
+          "description": "Od nas više nećete primati podsjetnike za košaricu."
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Politika povrata novca",
+        "privacy_policy": "Politika privatnosti",
+        "terms_of_service": "Uvjeti pružanja usluge",
+        "legal_notice": "Pravna obavijest",
+        "shipping_policy": "Politika dostave",
+        "terms_of_sale": "Uvjeti prodaje",
+        "subscription_policy": "Politika otkazivanja mogućnosti kupnje",
+        "purchase_options_policy": "Politika mogućnosti kupnje",
+        "contact_information": "Kontakt podaci"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Uvjeti i odredbe registriranog trgovca",
+        "privacy_policy": "Politika privatnosti registriranog trgovca"
+      },
+      "remember_me": {
+        "shopify_pay_label": "Kupnja plati",
+        "save": "Uštedjeti",
+        "title": "Zapamti me",
+        "label": "Sačuvaj moje podatke za bržu naplatu",
+        "description_html": "Sljedeći put kada budete kupovali ovdje ili u drugim trgovinama koje pokreće Shopify, primit ćete kod putem SMS poruke za sigurnu kupnju uz Shop Pay.",
+        "mobile_phone_icon_alt": "Mobitel",
+        "mobile_phone_number": "Broj mobitela",
+        "terms_and_privacy_html": "Ako nastavite, pristajete na %{privacy_href} i %{terms_href} Shop Paya.",
+        "external_acessibility_label": "(otvara novi prozor)",
+        "privacy_policy": "Politika privatnosti",
+        "terms_of_service": "Uvjeti pružanja usluge",
+        "errors": {
+          "optin": "Shop Pay nije dostupan"
+        },
+        "installments": {
+          "paid_in_installments": "Plaća se na rate uz Shop Pay.",
+          "view_schedule": "Pogledaj raspored"
+        },
+        "title_with_logo_html": "Zapamti me uz %{shopify_pay}",
+        "label_address_payment_and_faster_checkouts": "Neka Shop Pay ispuni moju adresu i podatke o plaćanju za brže naplate.",
+        "label_faster_checkouts_and_thousand_shops": "Spremi moje podatke uz Shop Pay za brže naplate u više od milijun trgovina."
+      },
+      "notifications": {
+        "title": "Obavijesti"
       }
     },
     "errors": {
@@ -1697,6 +1849,18 @@
         "email": "E-mail",
         "phone": "Broj telefona"
       }
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "shop_link": "Nastaviti s kupovinom",
+      "remaining_html": "Preostalo {{ balance }}",
+      "add_to_apple_wallet": "Dodaj u Apple Wallet",
+      "qr_image_alt": "QR kod — skenirajte da biste iskoristili darovnu karticu",
+      "copy_code": "Kopiraj kod",
+      "expired": "Istekao",
+      "copy_code_success": "Kod je uspješno kopiran",
+      "print_gift_card": "Ispis"
     }
   }
 }
