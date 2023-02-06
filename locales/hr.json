@@ -918,7 +918,9 @@
         "delete_and_replace_button": "Izbriši i zamijeni",
         "delete_and_replace_button_accessibility_label": "Izbrišite {{currentPaymentMethodName}} i zamijenite s {{newPaymentMethodName}} .",
         "deleted_successfully": "Način plaćanja uspješno izbrisan.",
-        "loading_available_payment_methods_accessibility_label": "Učitavanje dostupnih načina plaćanja"
+        "loading_available_payment_methods_accessibility_label": "Učitavanje dostupnih načina plaćanja",
+        "title": "Izbriši način plaćanja",
+        "description_without_replacement": "Ovaj način plaćanja više neće biti dostupan za buduće kupnje."
       },
       "add_payment_method": {
         "title": "Dodajte način plaćanja",
@@ -930,6 +932,66 @@
           "choose_billing_address_from_list_button": "Odaberite s popisa",
           "choose_billing_address_from_list_button_accessibility_label": "Odaberite adresu za naplatu s popisa",
           "missing_billing_address_error_message": "Navedite adresu za naplatu"
+        }
+      },
+      "title": "Metode Plačanja",
+      "add_payment_method_button": "Dodajte način plaćanja",
+      "delete_payment_method_button": "Izbrisati",
+      "delete_payment_method_button_accessibility_label": "Izbriši {{paymentMethodName}}",
+      "back_button": "leđa",
+      "back_button_accessibility_label": "Natrag na {{paymentMethodStepTitle}}",
+      "generic_card": "Kartica",
+      "payment_details": {
+        "title": "Podaci o načinu plaćanja",
+        "credit_card_details_accessibility_label": "završava na {{lastDigits}}",
+        "billing_title": "Adresa za naplatu",
+        "card_info_title": "Podaci o kartici",
+        "payment_method_expiring_on": "Istječe {{expiryDate}}",
+        "preauthorized_payments": "Preautorizirana plaćanja",
+        "close_payment_modal": "Zatvoriti",
+        "close_payment_modal_accessibility_label": "Zatvori modal s detaljima o načinu plaćanja",
+        "payment_method_not_found_error": "Nije moguće pronaći način plaćanja",
+        "payment_details_loading": "Učitavanje pojedinosti o načinu plaćanja",
+        "pre_authorized_payments": "Unaprijed autorizirana plaćanja",
+        "total_amount_of_subscription_line_items_left": "i još {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} stavki, prikazujući {{totalItemsToDisplay}} stavki.",
+        "next_payment_due": "Sljedeće plaćanje dospijeva {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Uredi",
+        "edit_payment_method_button_accessibility_label": "Uredi način plaćanja koji završava na {{lastDigits}}"
+      },
+      "edit_payment_method": {
+        "title": "Uredi način plaćanja",
+        "save_payment_method_button": "Uštedjeti",
+        "cancel_edit_payment_method_button": "Otkazati",
+        "payment_method_updated_toast": "Način plaćanja ažuriran",
+        "billing_address": "Adresa za naplatu",
+        "billing_address_add_new": "Dodaj novi",
+        "billing_address_choose_from_list": "Odaberite s popisa",
+        "future_purchases_notice": "Ovaj način plaćanja bit će spremljen za buduće kupnje."
+      },
+      "card_fields": {
+        "card_number_label": "Broj kartice",
+        "card_number_placeholder": "Broj kartice",
+        "name_on_card_label": "Ime na kartici",
+        "name_on_card_placeholder": "Ime na kartici",
+        "card_expiry_label": "Datum isteka (MM\/GG)",
+        "card_expiry_placeholder": "Datum isteka (MM\/GG)",
+        "card_verification_value_label": "Sigurnosni kod",
+        "card_verification_value_placeholder": "Sigurnosni kod",
+        "card_start_label": "Datum izdavanja (MM\/GG)",
+        "card_start_placeholder": "Datum izdavanja (MM\/GG)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Više informacija",
+          "card_verification_value_explanation_amex": "4-znamenkasti sigurnosni kod na prednjoj strani kartice",
+          "card_verification_value_explanation_other": "3-znamenkasti sigurnosni kod na poleđini vaše kartice",
+          "card_verification_value_explanation": "3-znamenkasti sigurnosni kod koji se obično nalazi na poleđini vaše kartice. Kartice American Express imaju 4-znamenkasti kod koji se nalazi na prednjoj strani.",
+          "card_security_notice": "Sve transakcije su sigurne i šifrirane."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Unesite svoje ime točno onako kako je napisano na vašoj kartici",
+          "credit_card_number_invalid": "Unesite važeći broj kartice",
+          "credit_card_expiry_invalid": "Unesite važeći datum isteka kartice",
+          "credit_card_verification_value_blank": "Unesite CVV ili sigurnosni kod na svojoj kartici"
         }
       }
     },
@@ -1073,10 +1135,100 @@
             "title_due_on_fulfillment": "Plaćanje po ispunjenju",
             "description_overdue": "Vaše plaćanje kasni.",
             "description_partially_paid": "Ova je narudžba djelomično plaćena. Imate preostali saldo.",
-            "description_authorized": "Vaš način plaćanja bit će terećen na datum dospijeća ili možete platiti sada."
-          }
+            "description_authorized": "Vaš način plaćanja bit će terećen na datum dospijeća ili možete platiti sada.",
+            "description_due_on_receipt": "Primit ćete fakturu kada plaćanje dospije.",
+            "description_due_on_fulfillment": "Plaćanje dospijeva kada se ispune sve stavke u ovoj narudžbi."
+          },
+          "draft": {
+            "description": "Podaci o plaćanju određuju se prilikom potvrde narudžbe.",
+            "title": "Plaćanje još nije dospjelo",
+            "in_review": {
+              "description": "Podaci o plaćanju određuju se prilikom potvrde narudžbe.",
+              "title": "Plaćanje još nije dospjelo"
+            },
+            "submitted": {
+              "description": "Pošaljite uplatu za potvrdu ove narudžbe.",
+              "title": "Platite za potvrdu"
+            }
+          },
+          "paid": {
+            "title": "Plaćeno",
+            "title_with_date": "Plaćeno {{date}}",
+            "description": "Vaša je narudžba u potpunosti plaćena."
+          },
+          "refund": {
+            "title": "Vraćeno",
+            "title_with_date": "Vraćeno {{date}}",
+            "description_full_refund": "Dobili ste puni povrat novca za ovu narudžbu.",
+            "description_single_refund": "Dobili ste djelomični povrat novca za ovu narudžbu.",
+            "description_multiple_refunds": "Dobili ste djelomične povrate novca za ovu narudžbu."
+          },
+          "canceled": {
+            "title": "Plaćanje otkazano",
+            "description": "Neće vam biti naplaćeno."
+          },
+          "pay_now": "Plati sada",
+          "pay_now_accessibility_label": "Platite sada za narudžbu {{orderName}}",
+          "title": "Status plaćanja"
+        },
+        "order_timeline": {
+          "expand_events_label": "Pokaži detalje",
+          "expand_events_accessibility_label": "Prikaži detalje nacrta narudžbe",
+          "hide_events_label": "Sakri detalje",
+          "hide_events_accessibility_label": "Sakrij detalje nacrta narudžbe"
+        },
+        "subtitle": "Poslano {{date}}",
+        "title": "Naručite {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Ovaj način plaćanja više neće biti dostupan za buduće kupnje s ove lokacije.",
+          "description_with_replacement": "Brisanje ovog načina plaćanja utjecat će na predautorizirana plaćanja za ovu lokaciju. Zamijenite ga alternativnim načinom plaćanja kako biste nastavili primati nadolazeće narudžbe."
         }
       }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Došlo je do problema prilikom brisanja ove adrese. Pokušajte ponovno ili osvježite stranicu."
+      },
+      "addresses_loading_issue": {
+        "description": "Greška u povezivanju. Provjerite internetsku vezu i pokušajte ponovno."
+      },
+      "banner_title": {
+        "one": "Postoji {{count}} pogreška",
+        "other": "Postoji {{count}} pogrešaka"
+      },
+      "failed_address_creation": {
+        "description": "Došlo je do problema prilikom izrade vaše adrese. Pokušajte osvježiti ovu stranicu ili provjerite internetsku vezu."
+      },
+      "failed_address_update": {
+        "description": "Došlo je do problema prilikom ažuriranja vaše adrese. Pokušajte osvježiti ovu stranicu ili provjerite internetsku vezu."
+      },
+      "load_orders_error": {
+        "title": "Nije moguće učitati narudžbe",
+        "description": "Pokušajte ponovo ili se vratite kasnije.",
+        "retry_button": "Pokušaj ponovo"
+      },
+      "no_access": {
+        "back_to_authentication_link": "Prijavite se na drugi račun",
+        "description": "Niste registrirani kao B2B kupac kod {{shopName}}",
+        "title": "Nema pristupa"
+      },
+      "no_access_to_locations": {
+        "description": "Nemate pristup nijednoj lokaciji"
+      },
+      "not_found": {
+        "description": "Provjerite URL ili pokušajte ponovno za nekoliko minuta.",
+        "title": "Došlo je do problema s učitavanjem ove stranice"
+      },
+      "order_not_found": {
+        "description": "Ova narudžba ne postoji ili nemate dopuštenje za pregled.",
+        "title": "Narudžba nije pronađena"
+      },
+      "profile_update_error": {
+        "description": "Došlo je do problema prilikom ažuriranja vašeg profila. Pokušajte osvježiti ovu stranicu ili provjerite internetsku vezu."
+      },
+      "retry_action_label": "Pokušaj ponovo"
     }
   },
   "sections": {
