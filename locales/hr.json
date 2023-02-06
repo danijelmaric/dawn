@@ -363,5 +363,263 @@
         "checkout_amount_changed": "Vaše plaćanje nije bilo moguće obraditi jer se iznos duga na blagajni promijenio. Provjerite svoju narudžbu i pokušajte ponovno."
       }
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "no_tracking_number": "Ne postoji broj za praćenje ove pošiljke.",
+        "on_its_way_label": "Na putu",
+        "on_its_way_title": "Vaša pošiljka je na putu",
+        "out_for_delivery_label": "van za dostavu",
+        "out_for_delivery_title": "Vaša pošiljka je spremna za isporuku",
+        "resume_tracking": "Nastavi praćenje",
+        "submitted_label": "Poslano",
+        "submitted_description": "Pregledajte podatke o narudžbi i plaćanju.",
+        "track_shipment": "Pratite pošiljku",
+        "request_return": "Zatraži povrat",
+        "view_order_for_details": "Pogledajte narudžbu za detalje"
+      },
+      "status_mark_as_delivered": "Označi kao isporučeno",
+      "status_title": "Stanje narudžbe",
+      "buy_again": "Kupi ponovno",
+      "buy_again_accessibility_label": "Kupite ponovo za narudžbu {{orderId}}",
+      "manage": "Upravljati",
+      "manage_accessiblity_label": "Upravljanje narudžbom {{orderId}}",
+      "group_title_label": "Dio: {{groupTitle}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Pokaži detalje",
+        "expand_events_accessibility_label": "Prikaži detalje o pošiljci narudžbe",
+        "hide_events_label": "Sakri detalje",
+        "hide_events_accessibility_label": "Sakrij podatke o pošiljci narudžbe"
+      },
+      "addresses_section_title": "Naplata i otprema",
+      "billing_address": "Adresa za naplatu",
+      "card_ending_with": "završava s {{lastDigits}}",
+      "contact": "Kontakt",
+      "fully_refunded_label": "POVRAT NOVCA",
+      "discount": "Popust",
+      "hide_items": "Sakrij stavke",
+      "loading": "Učitavanje detalja narudžbe",
+      "loading_finished_accessibility_message": "Detalji narudžbe su učitani",
+      "location": "Mjesto",
+      "mobile_summary_toggle_button": {
+        "open": "Prikaži sažetak narudžbe",
+        "closed": "Sakrij sažetak narudžbe"
+      },
+      "no_data": "Nijedan",
+      "partially_refunded_label": "DJELOMIČNO POVRAT NOVCA",
+      "payment": {
+        "status_in_review": "Plaćanje nakon pregleda",
+        "status_unpaid": "Plaćanje dospijeva {{date}}",
+        "title": "Plaćanje"
+      },
+      "refunded_amount": "Vraćeno",
+      "request_return_failed": "Došlo je do problema s obradom vašeg zahtjeva. Molim te pokušaj ponovno.",
+      "returns": {
+        "expand_events_label": "Pokaži detalje",
+        "hide_events_label": "Sakri detalje",
+        "ineligible_return_with_policy_message": "Nijedan artikl u ovoj narudžbi ne ispunjava uvjete za povrat. Pregledajte naš {{returnAndRefundPolicyLinkText}} da biste saznali više.",
+        "ineligible_return_without_policy_message": "Nijedan artikl u ovoj narudžbi ne ispunjava uvjete za povrat.",
+        "print_shipping_label": "Ispis naljepnice za otpremu",
+        "return_and_refund_link_text": "politika povrata i povrata novca",
+        "return_and_refund_modal_header": "Politika povrata i povrata novca",
+        "tracking_number": "Broj za pračenje:"
+      },
+      "shipping": {
+        "address": "Dostavna adresa",
+        "address_map_marker": "Dostavna adresa",
+        "method": "Metoda slanja",
+        "summary": "dostava"
+      },
+      "show_items": "Prikaži stavke",
+      "show_order_summary": "Prikaži sažetak narudžbe",
+      "hide_order_summary": "Sakrij sažetak narudžbe",
+      "subtitle": "Potvrđeno {{date}}",
+      "subtotal": "Međuzbroj",
+      "summary_list_title_accessibility_label": "Naručite stavke",
+      "summary_title": "Sažetak narudžbe",
+      "summary_totals_title_accessibility_label": "Ukupni iznos narudžbe",
+      "taxes": "Porezi",
+      "title": "Naručite {{name}}",
+      "total": "Ukupno",
+      "unit_price": "( {{price}} \/ea)",
+      "pagination": {
+        "load_more": "Učitaj više",
+        "load_more_accessibility_label": "Učitaj još stavki",
+        "loading_accessibility_label": "Učitavanje stavki"
+      }
+    },
+    "addresses": {
+      "add_button": "Dodajte adresu",
+      "add_address_banner": "Dodajte adrese za korištenje pri naplati",
+      "address_deleted_notification": "Adresa izbrisana",
+      "cancel_adding_address_accessibility_label": "Otkaži dodavanje adrese",
+      "cancel_deletion_button": "Otkazati",
+      "cancel_deletion_button_accessibility_label": "Odustani od brisanja {{address}}",
+      "default_address": {
+        "title": "Zadana adresa",
+        "title_accessibility_label": "Zadana adresa: {{address}}"
+      },
+      "delete_button": "Izbrisati",
+      "delete_button_accessibility_label": "Izbriši {{address}}",
+      "delete_confirmation_button": "Izbriši adresu",
+      "delete_confirmation_button_accessibility_label": "Izbriši {{address}}",
+      "delete_confirmation_message": "Izbrisati adresu? To ne utječe na postojeće narudžbe.",
+      "delete_confirmation_title": "Izbrisati adresu?",
+      "delete_confirmation_description": "To ne utječe na postojeće narudžbe.",
+      "edit_button": "Uredi",
+      "edit_button_accessibility_label": "Uredi {{address}}",
+      "edit_section_accessibility_label": "Uredi {{address}}",
+      "edit_modal_title": {
+        "default": "Uredi adresu",
+        "billing": "Uredi adresu za naplatu",
+        "shipping": "Uredi adresu za dostavu"
+      },
+      "loading_accessibility_message": "Učitavanje adrese",
+      "loading_addresses_accessibility_message": "Učitavanje adresa",
+      "loading_billing_accessibility_message": "Učitavanje adrese za naplatu",
+      "loading_finished_accessibility_message": "Učitana je nova stranica s adresama",
+      "loading_shipping_accessibility_message": "Učitavanje adrese za dostavu",
+      "pagination": {
+        "load_more": "Učitaj više",
+        "load_more_accessibility_label": "Učitaj više adresa"
+      },
+      "save_new_address_accessibility_label": "Spremi adresu",
+      "title": "Adrese",
+      "billing_address_dropdown_placeholder": "Adresa za naplatu"
+    },
+    "payment_methods": {
+      "payment_delete": {
+        "description_with_replacement": "Brisanje ovog načina plaćanja utjecat će na unaprijed autorizirana plaćanja. Po želji ga možete zamijeniti drugim načinom plaćanja kako biste nastavili primati nadolazeće narudžbe.",
+        "payment_method_selector_placeholder": "Odaberite zamjenski način plaćanja (nije obavezno)",
+        "payment_method_selector_no_alternative_payment": "Nema metode zamjene",
+        "replace_method_with_new_method_description": "Vaš {{currentPaymentMethodName}} bit će izbrisan i zamijenjen vašim {{newPaymentMethodName}} .",
+        "error_when_deleting": "Ispričavamo se ali nešto nije u redu i nismo mogli izbrisati ovaj način plaćanja. Pokušajte ponovno kasnije ili osvježite stranicu.",
+        "delete_and_replace_button": "Izbriši i zamijeni",
+        "delete_and_replace_button_accessibility_label": "Izbrišite {{currentPaymentMethodName}} i zamijenite s {{newPaymentMethodName}} .",
+        "deleted_successfully": "Način plaćanja uspješno izbrisan.",
+        "loading_available_payment_methods_accessibility_label": "Učitavanje dostupnih načina plaćanja"
+      },
+      "add_payment_method": {
+        "title": "Dodajte način plaćanja",
+        "payment_method_added_confirmation": "Način plaćanja dodan",
+        "billing_address": {
+          "title": "Adresa za naplatu",
+          "add_billing_address_button": "Dodaj novi",
+          "add_billing_address_button_accessibility_label": "Dodajte novu adresu za naplatu",
+          "choose_billing_address_from_list_button": "Odaberite s popisa",
+          "choose_billing_address_from_list_button_accessibility_label": "Odaberite adresu za naplatu s popisa",
+          "missing_billing_address_error_message": "Navedite adresu za naplatu"
+        }
+      }
+    },
+    "payment_method_brands": {
+      "discover": "Otkriti",
+      "hipercard": "Hiperkartica",
+      "shoppay": "Kupnja plati"
+    },
+    "shop_policies": {
+      "legal_notice": "Pravna obavijest",
+      "privacy_policy": "Politika privatnosti",
+      "refund_policy": "Politika povrata novca",
+      "shipping_policy": "Politika dostave",
+      "subscription_policy": "Politika pretplate",
+      "terms_of_sale": "Uvjeti prodaje",
+      "terms_of_service": "Uvjeti pružanja usluge"
+    }
+  },
+  "sections": {
+    "header": {
+      "announcement": "Obavijest",
+      "menu": "Jelovnik",
+      "cart_count": {
+        "one": "{{ count }} stavka",
+        "other": "{{ count }} stavke"
+      }
+    },
+    "cart": {
+      "title": "Vaša kolica",
+      "caption": "Stavke u košarici",
+      "remove_title": "Ukloni {{ title }}",
+      "subtotal": "Međuzbroj",
+      "new_subtotal": "Novi međuzbroj",
+      "note": "Naručite posebne upute",
+      "checkout": "Provjeri",
+      "empty": "Vaša košarica je prazna",
+      "cart_error": "Došlo je do pogreške prilikom ažuriranja vaše košarice. Molim te pokušaj ponovno.",
+      "cart_quantity_error_html": "U svoju košaricu možete dodati samo [količina] ovog artikla.",
+      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">poštarina<\/a> obračunavaju se prilikom naplate",
+      "taxes_included_but_shipping_at_checkout": "Porez je uključen i poštarina se obračunava na blagajni",
+      "taxes_included_and_shipping_policy_html": "Porez uključen. <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">Dostava<\/a> se obračunava na blagajni.",
+      "taxes_and_shipping_at_checkout": "Porezi i poštarina obračunavaju se prilikom naplate",
+      "headings": {
+        "product": "Proizvod",
+        "price": "Cijena",
+        "total": "Ukupno",
+        "quantity": "Količina"
+      },
+      "update": "Ažuriraj",
+      "login": {
+        "title": "Imate račun?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\" class=\"link underlined-link\">Prijavite<\/a> se za bržu odjavu."
+      }
+    },
+    "footer": {
+      "payment": "Metode Plačanja"
+    },
+    "featured_blog": {
+      "view_all": "Pogledaj sve",
+      "onboarding_title": "Post na blogu",
+      "onboarding_content": "Dajte svojim klijentima sažetak vašeg posta na blogu"
+    },
+    "featured_collection": {
+      "view_all": "Pogledaj sve",
+      "view_all_label": "Pogledajte sve proizvode u {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Pogledaj sve"
+    },
+    "collection_template": {
+      "apply": "primijeniti",
+      "clear": "Čisto",
+      "clear_all": "Očistiti sve",
+      "empty": "Nema pronađenih proizvoda",
+      "from": "Iz",
+      "filter_and_sort": "Filtrirajte i sortirajte",
+      "filter_button": "filtar",
+      "filters_selected": {
+        "one": "{{ count }} odabrano",
+        "other": "{{ count }} odabrano"
+      },
+      "max_price": "Najviša cijena je {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} od {{ count }} proizvoda",
+        "other": "{{ product_count }} od {{ count }} proizvoda"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} proizvod",
+        "other": "{{ count }} proizvoda"
+      },
+      "reset": "Resetiraj",
+      "sort_button": "Vrsta",
+      "sort_by_label": "Poredaj po:",
+      "title": "Kolekcija",
+      "to": "Do",
+      "use_fewer_filters_html": "Koristite manje filtera ili <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20link%20%7D%7D&lt;\/span&gt;\">obrišite sve<\/a>"
+    },
+    "video": {
+      "load_video": "Učitaj video: {{ description }}"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Uđite u trgovinu koristeći lozinku:",
+      "login_password_button": "Unesite pomoću lozinke",
+      "login_form_password_label": "Lozinka",
+      "login_form_password_placeholder": "Tvoja lozinka",
+      "login_form_error": "Pogrešna lozinka!"
+    }
   }
 }
