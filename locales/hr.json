@@ -111,15 +111,7 @@
         "pick_up": "Pokupiti",
         "pick_up_locations": "Mjesta preuzimanja",
         "pick_up_in_one_hour": "Obično je gotovo za 1 sat",
-        "pick_up_in_two_hours": "Obično je gotovo za 2 sata",
-        "pick_up_in_four_hours": "Obično je gotovo za 4 sata",
-        "pick_up_in_twenty_four_hours": "Obično je spreman za 24 sata",
-        "pick_up_in_two_to_four_days": "Obično je gotovo za 2-4 dana",
-        "pick_up_in_five_or_more_days": "Obično je spreman za 5+ dana",
-        "pick_up_in_zero_to_two_hours": "Spremno za preuzimanje za 2 sata",
-        "pick_up_in_two_to_four_hours": "Spremno za preuzimanje za 4 sata",
-        "pick_up_immediately": "Spremno za preuzimanje",
-        "pick_up_next_day": "Spremno za preuzimanje sljedeći dan"
+        "pick_up_in_two_hours": "Obično je gotovo za 2 sata"
       },
       "order_summary": {
         "total_already_paid_label": "Već plaćeno",
@@ -149,73 +141,7 @@
           "due_later_checkout_to_draft": "Ukupno dospijeva kasnije"
         },
         "maximum_discount_code_limit_reached": "Dosegli ste maksimalni broj kodova za popust. Uklonite postojeći kod za korištenje <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> trenutno ne radi. Kontaktirajte nas za pomoć.",
-        "title": "Sažetak narudžbe",
-        "order_name_label": "Narudžba %{name}",
-        "shopping_cart_label": "Košarica za kupovinu",
-        "discount_title": "Popust",
-        "discount_label": "Kod za popust",
-        "discount_placeholder": "Kod za popust",
-        "gift_card_title": "Poklon kartica",
-        "gift_card_label": "Poklon kartica",
-        "gift_card_placeholder": "Poklon kartica",
-        "gift_card_and_discount_title": "Poklon kartica ili kod za popust",
-        "gift_card_and_discount_label": "Poklon kartica ili kod za popust",
-        "gift_card_and_discount_placeholder": "Poklon kartica ili kod za popust",
-        "remove_gift_card_label": "Jasna darovna kartica",
-        "remove_discount_label": "Ukloni popust",
-        "free_shipping_discount_label": "Besplatna dostava",
-        "applied_free_shipping_discount_label": "Primijenjeno",
-        "apply_discount_button_label": "primijeniti",
-        "applied_discount_message": "%{amount} popusta na ukupnu cijenu narudžbe",
-        "discount_has_been_applied": "Popust je primijenjen",
-        "discount_has_been_removed": "Popust je uklonjen",
-        "gift_card_has_been_applied": "Poklon kartica je primijenjena",
-        "gift_card_has_been_removed": "Poklon kartica je uklonjena",
-        "gift_card_subscriptions_notice": "Poklon kartice primjenjivat će se samo na vaše prvo plaćanje",
-        "discount_already_applied": "Na ovu je narudžbu primijenjen popust. Ne možete dodati još jedan popust.",
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kod za popust ne vrijedi za artikle u vašoj košarici",
-        "discount_requires_customer_notice": "Unesite svoje podatke za dostavu kako biste primijenili kod za popust <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
-        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kod za popust trenutno vam nije dostupan",
-        "shipping_information_does_not_meet_discount_requirements_notice": "Kôd za popust <strong style=\"text-transform:uppercase\">%{code}<\/strong> nije dostupan za vašu adresu za dostavu",
-        "customer_already_used_once_per_customer_discount_notice": "Kod za popust <strong style=\"text-transform:uppercase\">%{code}<\/strong> već je iskorišten",
-        "subtotal_label": "Međuzbroj",
-        "shipping_label": "dostava",
-        "pickup_label": "Pokupiti",
-        "no_pickup_location": "Vaša narudžba nije dostupna za preuzimanje. Unesite adresu za dostavu.",
-        "tip_label": "Savjet",
-        "calculating_shipping": "Izračunavanje...",
-        "shipping_default_value": "Izračunato u sljedećem koraku",
-        "shipping_pending_message": "Nije još dostupno",
-        "shipping_policy_link": "Troškovi dostave",
-        "taxes_label": "Porezi",
-        "estimated_taxes_label": "Procijenjeni porezi",
-        "information_estimated_taxes_label": "Porezi (procijenjeni)",
-        "estimated_taxes_finalization_tooltip_content": "Konačni porez i ukupan iznos bit će potvrđeni e-poštom ili porukom nakon što naručite.",
-        "order_total_label": "Ukupna narudžba",
-        "total_label": "Ukupno",
-        "total_outstanding_label": "Iznos za plaćanje",
-        "partial_total_label": "Ukupno",
-        "free_total_label": "Besplatno",
-        "paid_label": "Plaćeno",
-        "payment_due_label": "Dospjelo plaćanje",
-        "vat_label_html": "Uključujući %{amount} poreza",
-        "discount_and_gift_card_savings_notice": "Nakon %{discount_amount} u popustima i %{gift_card_amount} u darovnim karticama",
-        "discount_savings_notice": "Nakon %{discount_amount} popusta",
-        "gift_card_savings_notice": "Nakon %{gift_card_amount} u darovnim karticama",
-        "cost_table_title": "Sažetak troškova",
-        "description_label": "Opis",
-        "price_label": "Cijena",
-        "quantity_label": "Količina",
-        "product_change_label": "Promijeniti",
-        "product_image_label": "Slika proizvoda",
-        "scroll_order_summary": "Pomaknite se za više stavki",
-        "expand_order_summary": "Prikaži sažetak narudžbe",
-        "collapse_order_summary": "Sakrij sažetak narudžbe",
-        "original_price": "Originalna cijena",
-        "sale_price": "Prodajna cijena",
-        "total_updated_label": "Ažurirana ukupna cijena:",
-        "order_total_updated_label": "Ukupno ažurirano"
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> trenutno ne radi. Kontaktirajte nas za pomoć."
       },
       "shipping": {
         "title": "dostava",
@@ -566,43 +492,6 @@
         "resend_gift_cards": "Ponovno pošalji darovne kartice",
         "thank_you_title": "Vaša narudžba je potvrđena",
         "thank_you_title_payment": "Vaša uplata je potvrđena"
-      },
-      "customer_account": {
-        "not_user_label": "Niste %{first_name}?",
-        "have_an_account_label": "Već imate račun?",
-        "sign_in_link_label": "Prijaviti se",
-        "sign_out_link_label": "Odjavite se",
-        "save_my_information_label": "Sačuvajte ovu informaciju za sljedeći put"
-      },
-      "stock": {
-        "page_title": "Problemi s inventarom",
-        "title": "Nema na skladištu",
-        "items_unavailable_notice": "Neki artikli više nisu dostupni. Vaša košarica je ažurirana.",
-        "product_column_header": "Proizvodi",
-        "quantity_column_header": "Količina",
-        "price_column_header": "Cijena",
-        "removed_from_cart_notice": "Uklonjeno iz košarice",
-        "sold_out_label": "Prodano",
-        "reduced_label": "Smanjeno",
-        "reduced_with_quantity_label": "Još samo %{quantity_available}",
-        "remove_from_cart_button_label": "Ukloni iz košarice",
-        "continue_shopping_button_label": "Nastaviti",
-        "go_back_to_cart_button_label": "Vrati se u moju košaricu"
-      },
-      "contextual_availability": {
-        "title": {
-          "one": "Proizvod nije dostupan",
-          "other": "Proizvodi nedostupni"
-        },
-        "products_not_available": {
-          "one": "Ovaj će proizvod biti uklonjen iz vaše košarice jer nije dostupan u vašoj zemlji\/regiji.",
-          "other": "Ovi proizvodi bit će uklonjeni iz vaše košarice jer nisu dostupni u vašoj zemlji\/regiji."
-        },
-        "all_products_in_cart_unavailable": {
-          "one": "Ovaj proizvod nije dostupan u vašoj zemlji\/regiji.",
-          "other": "Ovi proizvodi nisu dostupni u vašoj zemlji\/regiji."
-        },
-        "unavailable_label": "Nedostupan"
       }
     },
     "errors": {
@@ -740,7 +629,94 @@
         "no_longer_track": {
           "status_html": "<b>Više ne pratimo otvaranje e-pošte.<\/b>",
           "privacy_policy": "Nakon slanja ove e-pošte ažurirali smo naša pravila o privatnosti i više ne pratimo otvaranja."
+        },
+        "track": {
+          "status_html": "<b>Prijavljeno je praćenje otvaranja e-pošte.<\/b>",
+          "visibility": "Vidjet ćemo samo jeste li otvorili e-poštu, kao dio ukupne stope otvaranja e-pošte."
+        },
+        "updated_policy": {
+          "status_html": "<b>Prijavljeno je praćenje otvaranja e-pošte.<\/b>",
+          "visibility": "Ažurirali smo naša pravila i sada pratimo otvaranja e-pošte. Stope otvaranja e-pošte bit će anonimne. Vidjet ćemo samo jeste li otvorili e-poštu kao dio ukupne stope otvaranja e-pošte.",
+          "opt_out_html": "Ako ne želite dijeliti ove informacije, možete se <a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">odjaviti.<\/a>"
         }
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "Dostupnost",
+        "value": {
+          "in_stock": "Na lageru",
+          "out_of_stock": "Nema na skladištu"
+        }
+      },
+      "vendor": {
+        "label": "Marka"
+      },
+      "price": {
+        "label": "Cijena"
+      },
+      "product_type": {
+        "label": "Vrsta proizvoda"
+      },
+      "boolean": {
+        "true_label": "Da",
+        "false_label": "Ne"
+      },
+      "tags": {
+        "label": "Više filtera"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevantnost",
+        "price_ascending": "Cijena, niska prema visokoj",
+        "price_descending": "Cijena, visoka prema niskoj"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Greška - %{title}",
+      "products": "Proizvodi",
+      "shopping_cart": "Vaša košarica",
+      "account": "Račun",
+      "create_account": "Napravi račun",
+      "reset_account": "Resetiraj račun",
+      "addresses": "Adrese",
+      "order": "Narudžba %{name}",
+      "search": "traži",
+      "search_results": {
+        "one": "Pretraživanje: %{count} rezultat pronađen za \"%{terms}\"",
+        "other": "Pretraživanje: %{count} rezultata pronađeno za \"%{terms}\""
+      },
+      "collections": "Zbirke",
+      "not_found": "404 nije pronađeno",
+      "challenge": "Izazov",
+      "checkpoint": "Kontrolna točka"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} popusta je primijenjeno"
+    },
+    "challenge": {
+      "message": "Da biste nastavili, recite nam da niste robot.",
+      "error": "Vaš odgovor nije točan, pokušajte ponovo.",
+      "submit_button_text": "podnijeti"
+    },
+    "checkpoint": {
+      "message": "Riješite Captcha za nastavak",
+      "error": "Provjera Captcha nije uspjela",
+      "submit_button_text": "podnijeti"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Obično je gotovo za 1 sat",
+        "two_hours": "Obično je gotovo za 2 sata",
+        "four_hours": "Obično je gotovo za 4 sata",
+        "twenty_four_hours": "Obično je spreman za 24 sata",
+        "two_to_four_days": "Obično je gotovo za 2-4 dana",
+        "five_or_more_days": "Obično je spreman za 5+ dana",
+        "zero_to_two_hours": "Obično je gotovo za 2 sata",
+        "two_to_four_hours": "Obično je gotovo za 4 sata",
+        "immediately": "Spremno za preuzimanje",
+        "next_day": "Spremno za preuzimanje sljedeći dan"
       }
     }
   },
@@ -765,7 +741,22 @@
       "buy_again_accessibility_label": "Kupite ponovo za narudžbu {{orderId}}",
       "manage": "Upravljati",
       "manage_accessiblity_label": "Upravljanje narudžbom {{orderId}}",
-      "group_title_label": "Dio: {{groupTitle}}"
+      "group_title_label": "Dio: {{groupTitle}}",
+      "list_layout_accessibility_label": "Mogućnosti izgleda",
+      "list_title": "Narudžbe",
+      "order_list": {
+        "column_headers": {
+          "order": "Narudžba",
+          "delivery_date": "Datum dostave",
+          "items": "Predmeti",
+          "order_date": "Datum narudžbe",
+          "order_number": "Broj narudžbe",
+          "status": "Stanje narudžbe",
+          "payment_status": "Status plaćanja",
+          "total": "Ukupno"
+        },
+        "delivered": "Isporučeno {{date}}"
+      }
     },
     "order_details": {
       "shipment_timeline": {
@@ -908,6 +899,191 @@
       "subscription_policy": "Politika pretplate",
       "terms_of_sale": "Uvjeti prodaje",
       "terms_of_service": "Uvjeti pružanja usluge"
+    },
+    "address_form": {
+      "attention": "Pažnja",
+      "attention_help_text": "Ime osobe ili odjela",
+      "auto_complete_close_accessibility_label": "Zatvori prijedloge",
+      "auto_complete_title": "Prijedlozi",
+      "billing_address": "Koristite kao adresu za naplatu",
+      "cancel": "Otkazati",
+      "cancel_accessibility_label": "Odustani od uređivanja adrese {{address}}",
+      "creation_success_notification": "Adresa dodana",
+      "default_address": "Ovo je moja zadana adresa",
+      "default_address_creation_success_notification": "Dodana je zadana adresa",
+      "default_address_update_success_notification": "Zadana adresa ažurirana",
+      "loading_add_form_accessibility_message": "Učitavanje obrasca za novu adresu",
+      "loading_edit_form_accessibility_message": "Učitavanje obrasca za uređivanje adrese",
+      "loading_form_accessibility_message": "Učitavanje obrasca adrese",
+      "loading_finished_accessibility_message": "Obrazac za adresu je učitan",
+      "save": "Uštedjeti",
+      "save_accessibility_label": "Spremi adresu {{address}}",
+      "section_title_accessibility_label": "Dodajte adresu",
+      "update_success_notification": "Adresa ažurirana"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Naziv tvrtke",
+        "company_card_section_accessibility_label": "Društvo"
+      },
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_list_title": "narod",
+        "contact_name": "Ime",
+        "contact_permissions": "Dozvole",
+        "contact_phone_number": "Broj telefona",
+        "location_picker_label": "Naziv lokacije",
+        "net_payment_terms_description": "{{name}} : plaćanja dospijevaju u roku od {{numberOfDays}} dana",
+        "pagination": {
+          "load_more": "Učitaj više",
+          "load_more_accessibility_label": "Učitaj više lokacija"
+        },
+        "payment_details_title": "Pojedinosti o plaćanju",
+        "payment_terms": "Uvjeti plaćanja",
+        "permissions_label": "Vaša dopuštenja",
+        "permissions_title": "Dozvole",
+        "section_title": "Mjesto",
+        "shipping_address_required": "Dodajte adresu za dostavu na ovu lokaciju kako biste započeli slati narudžbe.",
+        "tax_details_title": "Porezni podaci",
+        "tax_id": "PDV ID",
+        "tax_exemptions": "Porezna oslobođenja",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "i",
+        "tax_exemptions_modal_close": "Zatvoriti",
+        "taxes_none": "Nijedan",
+        "tax_exemptions_modal_button_accessibility_label": "Pogledajte sva porezna oslobođenja"
+      },
+      "location_selection": {
+        "continue_to_store": "Nastavite sa pohranjivanjem",
+        "description": "Ako već imate artikle u košarici, promjena lokacije može utjecati na cijene i količine košarice.",
+        "list_accessibility_label": "Popis lokacija",
+        "list_item_without_address_accessibility_label": "{{name}} : Nema adrese",
+        "list_loading_accessibility_message": "Učitavanje popisa lokacija",
+        "list_loading_address_accessibility_message": "Učitavanje adrese za {{locationName}}",
+        "list_loading_finished_accessibility_message": "Popis lokacija je učitan",
+        "loading_store_accessibility_message": "Idem u trgovinu",
+        "no_location_title": "Samo osobne narudžbe",
+        "no_location_description": "Više nemate dopuštenje za slanje narudžbi za {{company}} . I dalje možete slati osobne narudžbe.",
+        "no_locations_found": "Nema pronađenih lokacija",
+        "search": "Potražite lokaciju",
+        "selection_cancel_button": "Otkazati",
+        "selection_confirmation_button": "Odaberite mjesto",
+        "title": "Za koju lokaciju kupujete?",
+        "clear_search": "Očisti pretragu",
+        "try_new_search": "Pokušajte s novim pretraživanjem"
+      },
+      "addresses": {
+        "add_billing_address_button": "Dodajte adresu za naplatu",
+        "add_billing_address_section_accessibility_label": "Dodajte adresu za naplatu",
+        "add_shipping_address_button": "Dodajte adresu za dostavu",
+        "add_shipping_address_section_accessibility_label": "Dodajte adresu za dostavu",
+        "billing_address_card_title": "Adresa za naplatu",
+        "cancel_adding_billing_address_accessibility_label": "Otkaži dodavanje adrese za naplatu",
+        "cancel_adding_shipping_address_accessibility_label": "Otkaži dodavanje adrese za dostavu",
+        "save_new_billing_address_accessibility_label": "Spremi adresu za naplatu",
+        "save_new_shipping_address_accessibility_label": "Spremi adresu za dostavu",
+        "shipping_address_card_title": "Dostavna adresa"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Sakrij sve",
+          "show_all": "Pokaži sve",
+          "hide_all_accessibility_label": "Sakrij sve narudžbe u pregledu",
+          "show_all_accessibility_label": "Prikaži sve narudžbe u pregledu",
+          "show_all_orders_in_review": "Prikaži sve narudžbe u pregledu",
+          "show_less_orders_in_review": "Prikaži manje narudžbi u pregledu",
+          "title": "U tijeku",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Nemate narudžbi na čekanju",
+            "pending_orders": "Imate narudžbe na čekanju"
+          },
+          "pagination": {
+            "nav_accessibility_label": "Narudžbe u navigacijskim gumbima za pregled"
+          }
+        },
+        "order_list_column_headers_location": "Mjesto",
+        "order_list_column_headers_contact": "Kontakt",
+        "removed_company_contact_tooltip": "Uklonjen iz tvrtke"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Potvrđeno {{date}} iz narudžbe {{draftOrderName}}",
+        "loading": "Učitavanje detalja narudžbe",
+        "loading_finished_accessibility_message": "Detalji narudžbe su učitani",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Vaša uplata kasni {{count}} dana",
+              "other": "Vaše plaćanje kasni {{count}} dana"
+            },
+            "banner_due": {
+              "one": "Vaše plaćanje dospijeva za {{count}} dan",
+              "other": "Vaše plaćanje dospijeva za {{count}} dana"
+            },
+            "banner_due_today": "Vaše plaćanje dospijeva danas",
+            "title": "Dospjelo plaćanje",
+            "title_with_date": "Rok plaćanja {{date}}",
+            "title_due_on_receipt": "Plaćanje još nije dospjelo",
+            "title_due_on_fulfillment": "Plaćanje po ispunjenju",
+            "description_overdue": "Vaše plaćanje kasni.",
+            "description_partially_paid": "Ova je narudžba djelomično plaćena. Imate preostali saldo.",
+            "description_authorized": "Vaš način plaćanja bit će terećen na datum dospijeća ili možete platiti sada."
+          }
+        }
+      }
+    },
+    "enable_javascript": "Da biste vidjeli svoj račun, omogućite JavaScript u postavkama preglednika ili se prijavite s drugim preglednikom.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Sakrij izbornik računa",
+        "label": "Račun",
+        "show_accessibility_label": "Prikaži izbornik računa"
+      },
+      "action_menu_accessibility_label": "Vise akcije",
+      "close_menu_accessibility_label": "Zatvori glavnu navigaciju",
+      "contact_email_subject": "Kontakt iz internetske trgovine {{shopName}}",
+      "contact_link": "Kontaktirajte nas",
+      "delete_confirmation": {
+        "cancel": "Otkazati",
+        "delete": "Izbrisati"
+      },
+      "dismiss_toast": "Odbaciti",
+      "document_title": "{{sectionName}} - {{shopName}} - Račun",
+      "go_to_store_link": "Idi u trgovinu",
+      "loading_message": "Učitavam",
+      "log_out_link": "Odjavite se",
+      "logout_overlay_label": "Odjavljujem vas...",
+      "nav_label_accessibility_label": "Glavna navigacija",
+      "navigation_accessibility_message": "Došli ste do {{sectionName}}",
+      "open_menu_accessibility_label": "Otvorite glavnu navigaciju",
+      "orders_link_label": "Narudžbe",
+      "shop_logo_accessibility_label": "{{shopName}} logo",
+      "subscriptions_link_label": "Pretplate"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Učitavanje podataka o računu",
+      "loading_finished_accessibility_message": "Podaci o računu su učitani",
+      "profile_card": {
+        "cancel": "Otkazati",
+        "cancel_accessibility_label": "Otkaži uređivanje profila",
+        "edit": "Uredi",
+        "edit_accessibility_label": "Uredi profil",
+        "email_help_text": "Email koji se koristi za prijavu ne može se promijeniti",
+        "first_name": "Ime",
+        "last_name": "Prezime",
+        "phone_number_help_text": "Broj telefona koji se koristi za prijavu ne može se promijeniti",
+        "save": "Uštedjeti",
+        "save_accessibility_label": "Sačuvaj profil",
+        "title": "Profil"
+      },
+      "profile_update_confirmation_message": "Profil ažuriran",
+      "title": "Informacije o računu",
+      "people": {
+        "pagination": {
+          "load_more": "Učitaj više",
+          "load_more_accessibility_label": "Učitaj više ljudi",
+          "loading_accessibility_label": "Utovar ljudi"
+        }
+      }
     }
   },
   "sections": {
