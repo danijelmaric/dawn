@@ -267,7 +267,109 @@
             "find_nearest_atm": "Pronađite najbliži bankomat"
           }
         },
-        "update_payment_method": "Ažurirajte način plaćanja"
+        "update_payment_method": "Ažurirajte način plaćanja",
+        "gift_card_code_label": "Kod darovne kartice",
+        "apply_gift_card_button_label": "primijeniti",
+        "supported_card_brands_more_label": "i više…",
+        "detected_card_brand": "Otkrivena marka kartice: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Sačuvajte svoju kreditnu karticu",
+        "credit_card_vaulting_sign_in_banner_info": "Prijavite se ili kreirajte račun kako biste spremili svoju kreditnu karticu za buduće kupnje.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Prijaviti se",
+        "ftd_vault_credit_card_label": "Spremi ovu kreditnu karticu na moj račun za bržu naplatu",
+        "card_number_label": "Broj kartice",
+        "card_number_placeholder": "Broj kartice",
+        "card_pay_with": "Plati sa:",
+        "card_security_notice": "Sve transakcije su sigurne i šifrirane.",
+        "card_security_vault_notice": "Trebamo vaše podatke za buduća plaćanja. Sve transakcije su sigurne i šifrirane.",
+        "card_information_notice": "Sve transakcije su sigurne i šifrirane. Podaci o kreditnoj kartici nikada se ne pohranjuju.",
+        "name_on_card_label": "Ime na kartici",
+        "name_on_card_placeholder": "Ime na kartici",
+        "card_expired": "Istekao",
+        "card_expiry_label": "Datum isteka (MM\/GG)",
+        "card_expiry_placeholder": "Datum isteka (MM\/GG)",
+        "credit_card_start_month": "Početak mjeseca",
+        "credit_card_start_year": "Početna godina",
+        "delete_customer_mandate_modal_title": "Želite li ukloniti ovu platnu karticu?",
+        "delete_customer_mandate_modal_body": "Ako uklonite ovu karticu, morat ćete je ponovno dodati prije upotrebe za plaćanja.",
+        "delete_customer_mandate_modal_confirm": "Ukloni karticu",
+        "delete_customer_mandate_modal_cancel": "Otkazati",
+        "card_verification_value_label": "Sigurnosni kod",
+        "card_verification_value_placeholder": "Sigurnosni kod",
+        "card_verification_confirm": "U svrhu potvrde unesite sigurnosni kod svoje kartice.",
+        "card_expiry_date_explanation": "Datum isteka kartice u formatu: mjesec, mjesec, godina, godina",
+        "card_expiration_month_label": "Mjesec isteka",
+        "card_expiration_year_label": "Godina isteka",
+        "card_verification_value_explanation": "3-znamenkasti sigurnosni kod koji se obično nalazi na poleđini vaše kartice. Kartice American Express imaju 4-znamenkasti kod koji se nalazi na prednjoj strani.",
+        "card_verification_value_explanation_amex": "4-znamenkasti sigurnosni kod na prednjoj strani kartice",
+        "card_verification_value_explanation_other": "3-znamenkasti sigurnosni kod na poleđini vaše kartice",
+        "card_start_label": "Datum izdavanja (MM\/GG)",
+        "card_start_placeholder": "Datum izdavanja (MM\/GG)",
+        "card_issue_number_label": "Broj izdanja",
+        "card_issue_number_placeholder": "Broj izdanja",
+        "card_change_label": "Promijeniti",
+        "card_update_label": "Ažurirajte karticu",
+        "ends_with_label": "završava sa %{last_digits}",
+        "expiry_long": "(Ističe %{month}\/%{year})",
+        "expiry_short": "(Istek %{month}\/%{year})",
+        "saved_by_payment_method": "Spremio %{payment_method}",
+        "pay_with_payment_method": "Platite %{payment_method}",
+        "different_credit_card_label": "Koristite drugu kreditnu karticu",
+        "same_billing_address_label": "isto kao adresa dostave",
+        "different_billing_address_label": "Koristite drugu adresu za naplatu",
+        "billing_address_associated_with_mandate": "Koristite adresu povezanu s načinom plaćanja",
+        "billing_address_associated_with_mandate_info": "Ako želite promijeniti adresu za naplatu, uklonite i ponovno unesite podatke o kreditnoj kartici",
+        "free_order_notice_html": "Vaša narudžba je <strong>besplatna<\/strong> . Plaćanje nije potrebno.",
+        "express_checkout_free_order": "Besplatna narudžba vam se neće naplatiti",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Vaša je narudžba pokrivena vašom darovnom karticom.",
+          "other": "Vaša je narudžba pokrivena vašim darovnim karticama."
+        },
+        "offsite_gateway_redirect_hint": "Nakon klika na “%{button_label}”, bit ćete preusmjereni na %{gateway_label} kako biste sigurno dovršili svoju kupnju.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} ukupno %{total_shop_price}",
+        "receiver_payment_experience_hint": "Nakon što izvršite narudžbu, primit ćete podatke o plaćanju. Izvršite plaćanje na Multibanco ili online u roku od %{due_days} dana.",
+        "billing_address_title": "Adresa za naplatu",
+        "billing_address_description": "Odaberite adresu koja odgovara vašoj kartici ili načinu plaćanja.",
+        "billing_address_description_no_shipping_address": "Unesite adresu koja odgovara vašoj kartici ili načinu plaćanja.",
+        "no_js_credit_card_fields_redirect_hint": "Bit ćete preusmjereni da dodate podatke o plaćanju.",
+        "card_fields_container_prefix": "Terenski spremnik za:",
+        "card_fields_unavailable_html": {
+          "one": "Plaćanje kreditnom i debitnom karticom trenutno nije dostupno.<br> <a href=\"%%7Bcurrent_url%7D\">Osvježite ovu stranicu<\/a> ili pokušajte ponovno kasnije.",
+          "other": "Plaćanje kreditnom i debitnom karticom trenutno nije dostupno.<br> <a href=\"%%7Bcurrent_url%7D\">Osvježite ovu stranicu<\/a> ili pokušajte s drugim načinom plaćanja."
+        },
+        "card_fields_processing_error": "Došlo je do problema s obradom plaćanja. Pokušajte osvježiti ovu stranicu ili provjerite internetsku vezu.",
+        "technical_error": "Uplate se trenutačno ne mogu obraditi zbog tehničkog problema. Pokušajte ponovno za nekoliko minuta.",
+        "no_method_error": "Ova trgovina trenutno ne može prihvatiti plaćanja.",
+        "not_configured_error": "Ova trgovina trenutno ne može prihvatiti plaćanja.",
+        "missing_credit_card_error": "Unesite podatke svoje kartice kako biste dovršili plaćanje",
+        "billing_address_not_supported_for_payment_method_error": "Ovaj način plaćanja nije dostupan za vašu adresu za naplatu i valutu. Pokušajte s drugim načinom plaćanja.",
+        "generic_incorrect_card_info": "Vaše podatke o plaćanju nije bilo moguće potvrditi. Provjerite podatke o kartici i pokušajte ponovno.",
+        "sofort_label": "Sofort bankovni prijenos",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Pretplata",
+          "order_contains_fixed_selling_plans": "Ukupni iznos možda ne uključuje poreze, otpremu, odgođene troškove i neke popuste. Nastavite s naplatom za današnji iznos."
+        },
+        "klarna_pay_later_label": "Platite kasnije s Klarnom",
+        "klarna_pay_now_label": "Platite sada s Klarnom",
+        "bancontact_label": "Bančni kontakt",
+        "klarna_slice_it_label": "Financije s Klarnom",
+        "ideal_label": "idealan",
+        "bank_picker_label": "Banka",
+        "purchase_options_card_update_agreement_label_html": "Ažuriranjem svog načina plaćanja, odobravate plaćanja za bilo koju ponavljajuću ili odgođenu kupnju u skladu s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%%7Bpolicy_href%7D\">pravilima otkazivanja<\/a> ove trgovine.",
+        "subscription_card_update_agreement_label": "Promjena načina plaćanja ažurirat će vašu pretplatu i buduća ponavljajuća plaćanja.",
+        "subscription_agreement_label": "Razumijem da pristajem na pretplatu. Obnavljat će se po navedenoj cijeni i učestalosti dok ne završi ili dok ne bude %{cancelled}.",
+        "subscription_agreement_cancelled": "otkazan",
+        "subscription_agreement_label_html": "Razumijem da pristajem na pretplatu. Obnavljat će se po navedenoj cijeni i učestalosti dok ne završi ili završi\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">otkazan<\/a> .\n",
+        "purchase_options_agreement_label": "Razumijem da je jedan ili više artikala u mojoj košarici odgođena ili ponavljajuća kupnja. Nastavkom, prihvaćam %{cancellation_policy_label} i ovlašćujem vas da teretite moj način plaćanja prema cijenama, učestalosti i datumima navedenim na ovoj stranici dok moja narudžba ne bude ispunjena ili dok je ne otkažem, ako je dopušteno.",
+        "purchase_options_agreement_label_html": "Razumijem da je jedan ili više artikala u mojoj košarici odgođena ili ponavljajuća kupnja. Nastavkom, slažem se s\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">politika otkazivanja<\/a>\ni ovlašćujem vas da teretite moj način plaćanja prema cijenama, učestalosti i datumima navedenim na ovoj stranici do mog\nnarudžba je ispunjena ili ja otkazujem, ako je dopušteno.\n",
+        "change_currency_section_description": "Odaberite opciju valute",
+        "no_real_orders_dev_store": "Ova trgovina ne može prihvatiti stvarne narudžbe niti stvarna plaćanja.",
+        "waiting_on_payment_methods": "Dohvaćanje dostupnih načina plaćanja...",
+        "apple_pay_payment_error": "Vaše plaćanje nije bilo moguće izvršiti. Pokušajte ponovno ili upotrijebite drugi način plaćanja.",
+        "taxes_not_included": "Porezi nisu uključeni",
+        "no_taxes_banner_content": "Porez se neće naplatiti na ovu narudžbu. Nakon što prikupite uplatu, porezi se više ne mogu dodavati.",
+        "paypal": {
+          "connect": "Kliknite za povezivanje vašeg PayPal računa"
+        }
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Trenutno stanje %{amount}",
@@ -795,7 +897,34 @@
         "submitted_description": "Pregledajte podatke o narudžbi i plaćanju.",
         "track_shipment": "Pratite pošiljku",
         "request_return": "Zatraži povrat",
-        "view_order_for_details": "Pogledajte narudžbu za detalje"
+        "view_order_for_details": "Pogledajte narudžbu za detalje",
+        "attempted_delivery_label": "Pokušaj isporuke",
+        "attempted_delivery_description": "Pokušaj isporuke bio je neuspješan.",
+        "confirmed_description": "Primili smo vašu narudžbu.",
+        "on_its_way_description": "Ova pošiljka je na putu.",
+        "out_for_delivery_description": "Ova pošiljka je spremna za isporuku.",
+        "preparing_for_shipping_label": "Priprema za isporuku",
+        "preparing_for_shipping_description": "Ovi artikli se pripremaju za slanje.",
+        "ready_for_pickup_label": "Spremno za preuzimanje",
+        "ready_for_pickup_description": "Ovi artikli su spremni za preuzimanje.",
+        "picked_up_label": "Pokupila",
+        "picked_up_description": "Ovi predmeti su preuzeti.",
+        "canceled_description": "Vaša je narudžba otkazana {{date}} .",
+        "canceled_label": "Otkazano",
+        "canceled_title": "Vaša narudžba je otkazana",
+        "come_back": "Vratite se na ovu stranicu za ažuriranja statusa vaše pošiljke.",
+        "company_tracking_number": "Broj za praćenje {{company}} :",
+        "confirmed_label": "Potvrđeno",
+        "confirmed_title": "Vaša narudžba je potvrđena",
+        "delivered_description": "Ova pošiljka je isporučena.",
+        "delivered_label": "Isporučeno",
+        "delivered_title": "Vaša pošiljka je isporučena",
+        "estimated_delivery": "Predviđena isporuka {{date}}",
+        "in_review_description": "Obavijestit ćemo vas ako budemo trebali više informacija ili kada vaša narudžba bude potvrđena.",
+        "in_review_label": "U pregledu",
+        "in_review_title": "Vaša se narudžba pregledava",
+        "last_updated": "Zadnje ažuriranje {{date}}",
+        "multiple_shipments_label": "Više pošiljki"
       },
       "status_mark_as_delivered": "Označi kao isporučeno",
       "status_title": "Stanje narudžbe",
@@ -803,7 +932,110 @@
       "buy_again_accessibility_label": "Kupite ponovo za narudžbu {{orderId}}",
       "manage": "Upravljati",
       "manage_accessiblity_label": "Upravljanje narudžbom {{orderId}}",
-      "group_title_label": "Dio: {{groupTitle}}"
+      "group_title_label": "Dio: {{groupTitle}}",
+      "order_list": {
+        "empty_state_order_source_description": "Ovdje će se prikazati samo narudžbe poslane putem {{email}} .",
+        "empty_state_subtitle": "Idite u trgovinu da naručite.",
+        "empty_state_title": "Još nema narudžbi",
+        "empty_state_title_for_pending_orders": "Nema narudžbi na čekanju",
+        "estimated": "Procijenjeni {{date}}",
+        "estimated_shortform": "procjena {{date}}",
+        "estimated_delivery": "Predviđena isporuka {{date}}",
+        "one_images_accessibility_label": "Narudžba uključuje {{lineItemName1}}",
+        "two_images_accessibility_label": "Narudžba uključuje {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Narudžba uključuje {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Narudžba uključuje {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_four_products_accessibility_label": "Narudžba uključuje {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} i još {{numberOfAdditionalProducts}} proizvoda",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} proizvoda",
+        "carousel": {
+          "one_products_accessibility_label": "Narudžba uključuje {{lineItemName1}} količinu {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Narudžba uključuje {{lineItemName1}} količinu {{lineItemQuantity1}} , {{lineItemName2}} količinu {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Narudžba uključuje {{lineItemName1}} količinu {{lineItemQuantity1}} , {{lineItemName2}} količinu {{lineItemQuantity2}} , {{lineItemName3}} količinu {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Narudžba uključuje {{lineItemName1}} količinu {{lineItemQuantity1}} , {{lineItemName2}} količinu {{lineItemQuantity2}} , {{lineItemName3}} količinu {{lineItemQuantity3}} , {{lineItemName4}} količinu {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Narudžba uključuje {{lineItemName1}} količinu {{lineItemQuantity1}} , {{lineItemName2}} količinu {{lineItemQuantity2}} , {{lineItemName3}} količinu {{lineItemQuantity3}} , {{lineItemName4}} količinu {{lineItemQuantity4}} , {{lineItemName5}} količina {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Narudžba uključuje {{lineItemName1}} količinu {{lineItemQuantity1}} , {{lineItemName2}} količinu {{lineItemQuantity2}} , {{lineItemName3}} količinu {{lineItemQuantity3}} , {{lineItemName4}} količinu {{lineItemQuantity4}} , {{lineItemName5}} količina {{lineItemQuantity5}} , {{lineItemName6}} količina {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Narudžba uključuje {{lineItemName1}} količinu {{lineItemQuantity1}} , {{lineItemName2}} količinu {{lineItemQuantity2}} , {{lineItemName3}} količinu {{lineItemQuantity3}} , {{lineItemName4}} količinu {{lineItemQuantity4}} , {{lineItemName5}} količina {{lineItemQuantity5}} , {{lineItemName6}} količina {{lineItemQuantity6}} i više",
+          "view_order_details": "Pogledaj detalje narudžbe",
+          "previous": "Prethodno",
+          "next": "Sljedeći"
+        },
+        "items": {
+          "one": "{{count}} stavka",
+          "other": "{{count}} stavke"
+        },
+        "list_view": "Prikaži prikaz popisa",
+        "multiple_shipments": "Više pošiljki",
+        "no_filtered_results_description": "Uklonite ili prilagodite filtre da biste vidjeli svoje narudžbe",
+        "no_filtered_results_title": "Nema filtriranih rezultata",
+        "order_link": "Prikaži narudžbu {{name}}",
+        "order_number": "Naručite {{name}}",
+        "orders_title": "Potvrđeno",
+        "pagination": {
+          "nav_accessibility_label": "Gumbi za navigaciju narudžbi",
+          "next": "Sljedeći",
+          "next_accessibility_label": "Sljedeće narudžbe",
+          "previous": "Pret",
+          "previous_accessibility_label": "Prethodne narudžbe",
+          "load_more": "Učitaj više",
+          "load_more_accessibility_label": "Učitaj više narudžbi"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Pogledajte narudžbu za detalje",
+            "estimated_delivery": "Predviđena isporuka {{date}}",
+            "last_updated": "Zadnje ažuriranje {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "procjena isporuka {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Plaćanje kasni",
+            "due": "Rok plaćanja {{date}}",
+            "due_today": "Plaćanje dospijeva danas",
+            "due_without_date": "Dospjelo plaćanje",
+            "due_on_fulfillment": "Plaćanje po ispunjenju",
+            "pay_to_confirm": "Platite za potvrdu",
+            "payment_not_due": "Plaćanje još nije dospjelo"
+          },
+          "table_view": {
+            "overdue": "Zakašnjelo",
+            "due": "Rok {{date}}",
+            "due_today": "Rok je danas",
+            "paid": "Plaćeno",
+            "due_without_date": "Duge",
+            "due_on_fulfillment": "Dospijeva na ispunjenje",
+            "pay_to_confirm": "Platite za potvrdu",
+            "payment_not_due": "Još nije dospjelo"
+          }
+        },
+        "sort_by": "Poredaj po: {{option}}",
+        "sort_hide_options_accessibility_label": "Sakrij opcije sortiranja za potvrđene narudžbe.",
+        "sort_show_options_accessibility_label": "Prikaži opcije sortiranja za potvrđene narudžbe.",
+        "sort_currently_sorted_by_accessibility_label": "Trenutno poredano prema: {{option}}",
+        "sort_title": "Vrsta",
+        "sort": {
+          "date": {
+            "newest": "Od najnovijeg do najstarijeg",
+            "oldest": "Od najstarijeg do najnovijeg"
+          },
+          "location": {
+            "ascending": "Lokacija (AZ)",
+            "descending": "Lokacija (ZA)"
+          },
+          "order_number": {
+            "ascending": "Broj narudžbe (od niskog prema visokom)",
+            "descending": "Broj narudžbe (od visokog do niskog)"
+          },
+          "order_total": {
+            "ascending": "Ukupni iznos narudžbe (od niske prema visokoj)",
+            "descending": "Ukupni iznos narudžbe (od visokog do niskog)"
+          }
+        },
+        "table_view": "Prikaži tablični prikaz",
+        "show_order_actions_accessibility_label": "Prikaži radnje narudžbe za narudžbu {{name}}"
+      }
     },
     "order_details": {
       "shipment_timeline": {
