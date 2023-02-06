@@ -492,6 +492,86 @@
         "resend_gift_cards": "Ponovno pošalji darovne kartice",
         "thank_you_title": "Vaša narudžba je potvrđena",
         "thank_you_title_payment": "Vaša uplata je potvrđena"
+      },
+      "order_payment_collection": {
+        "checkout_review_and_pay": "Vaša narudžba %{order_name} je ažurirana. Pregledajte ove promjene, a zatim platite kako biste potvrdili svoju narudžbu.",
+        "order_updated_on": "Vaša je narudžba ažurirana %{last_edited_at}.",
+        "order_review_and_pay": "Vaša je narudžba ažurirana. Pregledajte i platite kako biste potvrdili svoju narudžbu.",
+        "pay_now": "Plati sada"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Vaša će kreditna kartica biti terećena %{amount}",
+        "payment_total_label": "Ukupna uplata",
+        "change_currency_link": "Promjena u %{currency_name}",
+        "card_provider_fx_charges_warning": "Vaš pružatelj kartice može naplatiti naknade za %{currency_code} transakcije.",
+        "currency_not_supported_by_shop": "Valuta koju ste odabrali više nije dostupna. Sve cijene su sada u %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Vaša je košarica ažurirana na temelju vaše zemlje dostave."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Vaša država\/regija je ažurirana. Unesite svoju adresu za dostavu kako biste nastavili s naplatom."
+      },
+      "tips": {
+        "title": "Dodajte savjet",
+        "description": "Pokažite svoju podršku timu u %{shop_name}",
+        "presets_description": "Odaberite postotak napojnice",
+        "custom_label": "Prilagođeni savjet",
+        "add_tip": "Dodajte savjet",
+        "update_tip": "Savjet za ažuriranje",
+        "message": "Hvala vam, cijenimo to",
+        "no_tip_label": "Nijedan"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Kupi %{product_name}",
+          "one": "Kupite %{product_name} i %{count} drugu stavku",
+          "other": "Kupi %{product_name} i %{count} drugih stavki"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "dan",
+            "other": "%{count} dana"
+          },
+          "week": {
+            "one": "tjedan",
+            "other": "%{count} tjedana"
+          },
+          "month": {
+            "one": "mjesec",
+            "other": "%{count} mjeseci"
+          },
+          "year": {
+            "one": "godina",
+            "other": "%{count} godina"
+          }
+        },
+        "recurring_totals": "%{total_price} svaki %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Prvo plaćanje %{total_price_with_discount}, zatim %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Prva uplata %{total_price}",
+            "other": "Prvih %{count} uplata po %{total_price} svaka"
+          },
+          "following_cycles": ", zatim %{total_price} svaki %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", zatim %{count} plaćanje u iznosu od %{total_price}",
+            "other": ", zatim %{count} plaćanja po %{total_price} svaka"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Metode Plačanja",
+        "title": "Metode Plačanja",
+        "update_card_button_label": "Ažurirajte karticu",
+        "delete_customer_mandate": {
+          "generic_error": "Došlo je do problema s obradom vašeg zahtjeva.",
+          "success_message": "Vaš način plaćanja je uspješno izbrisan"
+        }
       }
     },
     "errors": {
@@ -514,7 +594,29 @@
       "invalid_expiry_year": "nije valjana godina isteka",
       "reset_password_html": "Ova adresa e-pošte već je povezana s računom. Ako je ovaj račun vaš, možete <a href=\"\/account\/login#recover\">poništiti lozinku<\/a>",
       "verify_email": "Poslali smo e-poštu na %{customer_email}, kliknite na priloženu vezu da potvrdite svoju adresu e-pošte.",
-      "product_not_available": "proizvod nije objavljen za ovog kupca."
+      "product_not_available": "proizvod nije objavljen za ovog kupca.",
+      "blank": "ne može biti prazno",
+      "blocked_address": "Ova lokacija nije podržana.",
+      "credit_card_session_expired": "Autorizacija kreditne kartice je istekla, ponovno unesite podatke o plaćanju. Vaša kartica nije terećena.",
+      "empty": "ne može biti prazno",
+      "invalid_email": "Mora biti valjana e-mail adresa",
+      "discount_disabled": "Ovaj popust je onemogućen",
+      "discount_expired": "Ovaj popust više ne vrijedi",
+      "discount_limit_reached": "Ovaj popust dosegnuo je ograničenje upotrebe",
+      "discount_not_found": "Nije moguće pronaći važeći popust koji odgovara unesenom kodu",
+      "customer_already_used_once_per_customer_discount_notice": "Ovaj popust dosegnuo je ograničenje upotrebe",
+      "gift_card_already_applied": "Kod je već primijenjen na vašu naplatu",
+      "gift_card_code_invalid": "Kod je nevažeći",
+      "gift_card_currency_mismatch": "Vaša darovna kartica je u %{gift_card_currency}. Kontaktirajte nas za ponovno izdavanje u %{checkout_currency}.",
+      "gift_card_depleted": "Na ovoj darovnoj kartici nema više sredstava",
+      "gift_card_disabled": "Poklon kartica je onemogućena",
+      "gift_card_expired": "Poklon kartica je istekla",
+      "invalid": "netočno je",
+      "bad_domain": "sadrži nevažeći naziv domene",
+      "taken": "već je zauzeto",
+      "contains_html_tags": "ne može sadržavati HTML oznake",
+      "too_short": "je prekratak (minimum je %{count} znakova)",
+      "too_long": "je predug (maksimum je %{count} znakova)"
     },
     "notices": {
       "customer": {
@@ -629,94 +731,54 @@
         "no_longer_track": {
           "status_html": "<b>Više ne pratimo otvaranje e-pošte.<\/b>",
           "privacy_policy": "Nakon slanja ove e-pošte ažurirali smo naša pravila o privatnosti i više ne pratimo otvaranja."
-        },
-        "track": {
-          "status_html": "<b>Prijavljeno je praćenje otvaranja e-pošte.<\/b>",
-          "visibility": "Vidjet ćemo samo jeste li otvorili e-poštu, kao dio ukupne stope otvaranja e-pošte."
-        },
-        "updated_policy": {
-          "status_html": "<b>Prijavljeno je praćenje otvaranja e-pošte.<\/b>",
-          "visibility": "Ažurirali smo naša pravila i sada pratimo otvaranja e-pošte. Stope otvaranja e-pošte bit će anonimne. Vidjet ćemo samo jeste li otvorili e-poštu kao dio ukupne stope otvaranja e-pošte.",
-          "opt_out_html": "Ako ne želite dijeliti ove informacije, možete se <a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">odjaviti.<\/a>"
         }
       }
     },
-    "filters": {
-      "availability": {
-        "label": "Dostupnost",
-        "value": {
-          "in_stock": "Na lageru",
-          "out_of_stock": "Nema na skladištu"
-        }
-      },
-      "vendor": {
-        "label": "Marka"
-      },
-      "price": {
-        "label": "Cijena"
-      },
-      "product_type": {
-        "label": "Vrsta proizvoda"
-      },
-      "boolean": {
-        "true_label": "Da",
-        "false_label": "Ne"
-      },
-      "tags": {
-        "label": "Više filtera"
-      }
+    "pagination": {
+      "previous": "Prethodno",
+      "next": "Sljedeći"
     },
-    "search": {
+    "links": {
+      "powered_by_shopify": "Pokreće Shopify",
+      "learn_more": "Saznajte više"
+    },
+    "feed": {
+      "more": "Više"
+    },
+    "attributes": {
+      "email": "elektronička pošta",
+      "password": "lozinka",
+      "password_confirmation": "Potvrda lozinke",
+      "first_name": "ime",
+      "last_name": "prezime",
+      "body": "tijelo",
+      "signature": "Adresa"
+    },
+    "addresses": {
+      "zip_code": "Poštanski broj",
+      "postal_code": "Poštanski broj",
+      "postcode": "Poštanski broj",
+      "pincode": "PIN kod",
+      "region": "Regija",
+      "prefecture": "Prefektura",
+      "province": "Pokrajina",
+      "state": "država",
+      "state_and_territory": "Država\/teritorij",
+      "county": "Okrug",
+      "emirate": "Emirat",
+      "governorate": "Namjesništvo",
+      "confirm": "Jeste li sigurni da želite izbrisati ovu adresu?"
+    },
+    "collections": {
       "sorting": {
-        "relevance": "Relevantnost",
+        "manual": "Istaknuto",
+        "best_selling": "Najprodavanije",
+        "az": "Abecednim redom, AZ",
+        "za": "Abecednim redom ZA",
         "price_ascending": "Cijena, niska prema visokoj",
-        "price_descending": "Cijena, visoka prema niskoj"
-      }
-    },
-    "page_titles": {
-      "blog_or_article_with_error": "Greška - %{title}",
-      "products": "Proizvodi",
-      "shopping_cart": "Vaša košarica",
-      "account": "Račun",
-      "create_account": "Napravi račun",
-      "reset_account": "Resetiraj račun",
-      "addresses": "Adrese",
-      "order": "Narudžba %{name}",
-      "search": "traži",
-      "search_results": {
-        "one": "Pretraživanje: %{count} rezultat pronađen za \"%{terms}\"",
-        "other": "Pretraživanje: %{count} rezultata pronađeno za \"%{terms}\""
-      },
-      "collections": "Zbirke",
-      "not_found": "404 nije pronađeno",
-      "challenge": "Izazov",
-      "checkpoint": "Kontrolna točka"
-    },
-    "cart": {
-      "discounts_with_count": "%{count} popusta je primijenjeno"
-    },
-    "challenge": {
-      "message": "Da biste nastavili, recite nam da niste robot.",
-      "error": "Vaš odgovor nije točan, pokušajte ponovo.",
-      "submit_button_text": "podnijeti"
-    },
-    "checkpoint": {
-      "message": "Riješite Captcha za nastavak",
-      "error": "Provjera Captcha nije uspjela",
-      "submit_button_text": "podnijeti"
-    },
-    "store_availability": {
-      "pick_up_time": {
-        "one_hour": "Obično je gotovo za 1 sat",
-        "two_hours": "Obično je gotovo za 2 sata",
-        "four_hours": "Obično je gotovo za 4 sata",
-        "twenty_four_hours": "Obično je spreman za 24 sata",
-        "two_to_four_days": "Obično je gotovo za 2-4 dana",
-        "five_or_more_days": "Obično je spreman za 5+ dana",
-        "zero_to_two_hours": "Obično je gotovo za 2 sata",
-        "two_to_four_hours": "Obično je gotovo za 4 sata",
-        "immediately": "Spremno za preuzimanje",
-        "next_day": "Spremno za preuzimanje sljedeći dan"
+        "price_descending": "Cijena, visoka prema niskoj",
+        "date_ascending": "Datum, od starog do novog",
+        "date_descending": "Datum, novo u staro"
       }
     }
   },
@@ -741,22 +803,7 @@
       "buy_again_accessibility_label": "Kupite ponovo za narudžbu {{orderId}}",
       "manage": "Upravljati",
       "manage_accessiblity_label": "Upravljanje narudžbom {{orderId}}",
-      "group_title_label": "Dio: {{groupTitle}}",
-      "list_layout_accessibility_label": "Mogućnosti izgleda",
-      "list_title": "Narudžbe",
-      "order_list": {
-        "column_headers": {
-          "order": "Narudžba",
-          "delivery_date": "Datum dostave",
-          "items": "Predmeti",
-          "order_date": "Datum narudžbe",
-          "order_number": "Broj narudžbe",
-          "status": "Stanje narudžbe",
-          "payment_status": "Status plaćanja",
-          "total": "Ukupno"
-        },
-        "delivered": "Isporučeno {{date}}"
-      }
+      "group_title_label": "Dio: {{groupTitle}}"
     },
     "order_details": {
       "shipment_timeline": {
@@ -1028,60 +1075,6 @@
             "description_partially_paid": "Ova je narudžba djelomično plaćena. Imate preostali saldo.",
             "description_authorized": "Vaš način plaćanja bit će terećen na datum dospijeća ili možete platiti sada."
           }
-        }
-      }
-    },
-    "enable_javascript": "Da biste vidjeli svoj račun, omogućite JavaScript u postavkama preglednika ili se prijavite s drugim preglednikom.",
-    "navigation_and_structure": {
-      "account_menu": {
-        "hide_accessibility_label": "Sakrij izbornik računa",
-        "label": "Račun",
-        "show_accessibility_label": "Prikaži izbornik računa"
-      },
-      "action_menu_accessibility_label": "Vise akcije",
-      "close_menu_accessibility_label": "Zatvori glavnu navigaciju",
-      "contact_email_subject": "Kontakt iz internetske trgovine {{shopName}}",
-      "contact_link": "Kontaktirajte nas",
-      "delete_confirmation": {
-        "cancel": "Otkazati",
-        "delete": "Izbrisati"
-      },
-      "dismiss_toast": "Odbaciti",
-      "document_title": "{{sectionName}} - {{shopName}} - Račun",
-      "go_to_store_link": "Idi u trgovinu",
-      "loading_message": "Učitavam",
-      "log_out_link": "Odjavite se",
-      "logout_overlay_label": "Odjavljujem vas...",
-      "nav_label_accessibility_label": "Glavna navigacija",
-      "navigation_accessibility_message": "Došli ste do {{sectionName}}",
-      "open_menu_accessibility_label": "Otvorite glavnu navigaciju",
-      "orders_link_label": "Narudžbe",
-      "shop_logo_accessibility_label": "{{shopName}} logo",
-      "subscriptions_link_label": "Pretplate"
-    },
-    "account_information": {
-      "loading_accessibility_message": "Učitavanje podataka o računu",
-      "loading_finished_accessibility_message": "Podaci o računu su učitani",
-      "profile_card": {
-        "cancel": "Otkazati",
-        "cancel_accessibility_label": "Otkaži uređivanje profila",
-        "edit": "Uredi",
-        "edit_accessibility_label": "Uredi profil",
-        "email_help_text": "Email koji se koristi za prijavu ne može se promijeniti",
-        "first_name": "Ime",
-        "last_name": "Prezime",
-        "phone_number_help_text": "Broj telefona koji se koristi za prijavu ne može se promijeniti",
-        "save": "Uštedjeti",
-        "save_accessibility_label": "Sačuvaj profil",
-        "title": "Profil"
-      },
-      "profile_update_confirmation_message": "Profil ažuriran",
-      "title": "Informacije o računu",
-      "people": {
-        "pagination": {
-          "load_more": "Učitaj više",
-          "load_more_accessibility_label": "Učitaj više ljudi",
-          "loading_accessibility_label": "Utovar ljudi"
         }
       }
     }
